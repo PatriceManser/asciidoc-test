@@ -1,0 +1,27 @@
+= <Project Name>
+
+For release information see the link:doc/CHANGELOG.adoc[CHANGELOG]
+
+<Project Name> is ... it follows a description.
+
+// numbering from here on
+:numbered:
+
+<<<<
+// 1. Installation
+include::doc/installation.adoc[]
+
+<<<<
+// 2. Usage
+include::doc/usage.adoc[]
+
+== Architecture
+Visit the architecture section with all the
+link:doc/architecture/architecture.adoc[Architectural decisions]
+
+<<<<
+// 3. Contribution
+include::doc/contribution.adoc[]
+
+
+
