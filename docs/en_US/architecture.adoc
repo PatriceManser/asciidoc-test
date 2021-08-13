@@ -3,7 +3,7 @@
 //
 // ====================================
 
-= image:images/arc42-logo.png[arc42] Template
+= image:../resources/images/arc42-logo.png[arc42] Project Name
 // toc-title definition MUST follow document title without blank line!
 :toc-title: Table of Contents
 
@@ -16,73 +16,64 @@ ifdef::backend-html5[]
 .arc42help:hover {width:auto; height: auto; z-index: 100; padding: 10px;}
 .arc42help:hover::before {content: "";}
 @media print {
-	.arc42help {display:hidden;}
+	.arc42help {display:none;}
 }
 </style>
 ++++
 endif::backend-html5[]
 
 // configure EN settings for asciidoc
-include::src/config.adoc[]
-
-
-include::src/about-arc42.adoc[]
-
-// horizontal line
-***
-
-
-
+include::config.adoc[]
 
 // numbering from here on
 :numbered:
 
 <<<<
 // 1. Introduction and Goals
-include::src/01_introduction_and_goals.adoc[]
+include::01_introduction_and_goals.adoc[]
 
 <<<<
 // 2. Architecture Constraints
-include::src/02_architecture_constraints.adoc[]
+include::02_architecture_constraints.adoc[]
 
 <<<<
 // 3. System Scope and Context
-include::src/03_system_scope_and_context.adoc[]
+include::03_system_scope_and_context.adoc[]
 
 <<<<
 // 4. Solution Strategy
-include::src/04_solution_strategy.adoc[]
+include::04_solution_strategy.adoc[]
 
 <<<<
 // 5. Building Block View
-include::src/05_building_block_view.adoc[]
+include::05_building_block_view.adoc[]
 
 <<<<
 // 6. Runtime View
-include::src/06_runtime_view.adoc[]
+include::06_runtime_view.adoc[]
 
 <<<<
 // 7. Deployment View
-include::src/07_deployment_view.adoc[]
+include::07_deployment_view.adoc[]
 
 <<<<
 // 8. Concepts
-include::src/08_concepts.adoc[]
+include::08_concepts.adoc[]
 
 <<<<
 // 9. Design Decisions
-include::src/09_design_decisions.adoc[]
+include::09_design_decisions.adoc[]
 
 <<<<
 // 10. Quality Scenarios
-include::src/10_quality_scenarios.adoc[]
+include::10_quality_scenarios.adoc[]
 
 <<<<
 // 11. Technical Risks
-include::src/11_technical_risks.adoc[]
+include::11_technical_risks.adoc[]
 
 <<<<
 // 12. Glossary
-include::src/12_glossary.adoc[]
+include::12_glossary.adoc[]
 
 

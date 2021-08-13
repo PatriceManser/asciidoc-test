@@ -1,0 +1,23 @@
+Thumbs.db
+.DS_Store
+.gradle
+build/
+target/
+out/
+.idea
+*.iml
+*.ipr
+*.iws
+*.tmp
+*.bak
+*.swp
+.project
+.settings
+.classpath
+helm-chart-v*.tgz
+
+# eclipse specific
+.metadata
+local.properties
+.loadpath
+.eclipse

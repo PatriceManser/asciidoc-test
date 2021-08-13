@@ -1,6 +1,6 @@
 # PROJECT NAME
 
-For release information see the [CHANGELOG](doc/CHANGELOG.md)
+For release information see the [CHANGELOG](CHANGELOG.md)
 
 PROJECT_NAME is a ... it follows a description.
 

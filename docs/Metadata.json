@@ -1,0 +1,20 @@
+{
+  "id": "<documentId>",
+  "title": "<display title>",
+  "version": "1.0",
+  "labels": [
+    "Internal Tools",
+    "Documentation",
+    "Developer Experience"
+  ],
+  "parent": "Internal-Tools/Developer-Experience",
+  "index-page": "architecture.html",
+  "is-new-documentation": true,
+  "languages": [
+    "en-US",
+    "de_CH",
+    "de_DE",
+    "fr_FR"
+  ],
+  "default-language": "en_US"
+}
